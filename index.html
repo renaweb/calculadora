@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!-- FontAwesom -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+      
+      <title>Calculadora RW</title>
+   </head>
+   <body>
+      <div class="container py-5">
+         <h3 class="text-center">Calculadora de Ahorro</h3>
+         <div class="row text-center justify-content-center my-5">
+            <div class="col-12 col-md-3">
+               <p class="h6">¿Ya te has preguntado, cuantas botellas de 5 Galones compras por semana?</p>
+               <p class="">Precio estimado por Galón $3.00 USD</p>
+               <i class="fas fa-hand-holding-water fa-3x py-3"></i> 
+               <h3>Rena Ware</h3>
+               <select id="consumo" class="form-select mb-2" aria-label="Default select example">
+                  <option selected disabled>- Selecciona cantidad -</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+               </select>
+            </div>
+         </div>
+         <div id="result" class="row text-center my-5 d-none">
+            <div class="col-12 col-md-4">
+               <div class="card">
+                  <div class="card-header">
+                     <b>Agua Embotellada</b>
+                  </div>
+                  <div class="card-body">
+                     Costo Semanal
+                     <p id="calBotellaS" class="display-6"></p>
+                     Costo Mensual
+                     <p id="calBotellaM" class="display-6"></p>
+                     Costo Anual
+                     <p id="calBotellaA" class="display-6"></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-4">
+               <div class="card">
+                  <div class="card-header">
+                     <b>Botella Filtrante Rena Ware</b>
+                  </div>
+                  <div class="card-body">
+                     Costo Semanal
+                     <p id="calBotellaFiltranteS" class="display-6"></p>
+                     Costo Mensual
+                     <p id="calBotellaFiltranteM" class="display-6"></p>
+                     Costo Anual
+                     <p id="calBotellaFiltranteA" class="display-6"></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-md-4">
+               <div class="card">
+                  <div class="card-header">
+                     <b>Filtro Aqua <i class="fas fa-check"></i> Nano</b>
+                  </div>
+                  <div class="card-body">
+                     Costo Semanal
+                     <p id="calFiltrosRWS" class="display-6"></p>
+                     Costo Mensual
+                     <p id="calFiltrosRWM" class="display-6"></p>
+                     Costo Anual
+                     <p id="calFiltrosRWA" class="display-6"></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="js/script.js"></script>
+   </body>
+</html>
