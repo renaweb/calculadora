@@ -1,5 +1,6 @@
 html {
-
+   margin: 0;
+   padding: 0;
 }
 .logo {
    width: 300px;
