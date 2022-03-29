@@ -4,3 +4,10 @@ html {
 .logo {
    width: 300px;
 }
+.card {
+   border: 1px solid #002A3C;
+}
+.card-header{
+   background: #002A3C;
+   color: white;
+}
